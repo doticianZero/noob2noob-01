@@ -15,9 +15,10 @@ $("a[data-guid='123']").click(PushThebutton);
 function PushThebutton (){
         if (chosen$==undefined){
         div03.append ("<p data-guid='567'>You pressed the button!</p>")
+        chosen$.data (data-guid,'567');
         };  
            }
 });
 
-chosen$.data (data-guid,'567');
+
 
