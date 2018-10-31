@@ -14,7 +14,7 @@ var chosenP$ = $("p[data-clicked=0]");
 chosenA$.click(PushThebutton);
 
 function PushThebutton (){
-        if (chosenP$.data(data-clicked)==0){
+        if (chosenP$.data(data-clicked)=='0'){
         div03.append ("<p>You pressed the button!</p>")
         };
         chosenP$.data (data-clicked, 1);   
