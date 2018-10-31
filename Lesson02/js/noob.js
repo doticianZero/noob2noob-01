@@ -15,7 +15,7 @@ $("a[data-guid=123]").click(PushThebutton);
 function PushThebutton (){
         //if (!$("p[data-guid=567]")){
         div03.append ("<p data-guid=567>You pressed the button!</p>")
-        //
-};  
+        //};  
            }
 });
+
