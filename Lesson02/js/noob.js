@@ -3,7 +3,7 @@ $(document).ready(function(){
 var div01 = $("div").eq(0);
 var div02 = $("div").eq(1);
 var div03 = $("div").eq(2);
-var chosen$ = $("p[data-guid='567']")
+var chosen$ = $("p[data-guid='567']");
 
 div01.append ("<p>Please push the button </p>");
    
