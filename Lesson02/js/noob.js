@@ -3,7 +3,7 @@ $(document).ready(function(){
 var div01 = $("div").eq(0);
 var div02 = $("div").eq(1);
 var div03 = $("div").eq(2);
-var chosen$ = $("p[data-guid='567']");
+var chosen$ = $("p[data-guid='567']").hasAttribute();
 
 div01.append ("<p>Please push the button </p>");
    
@@ -13,7 +13,7 @@ $("a[data-guid='123']").click(PushThebutton);
 chosen$.data('guid','567')
 
 function PushThebutton (){
-        if (!chosen$.hasAttribute()){
+        if (!chosen$){
         div03.append ("<p data-guid='567'>You pressed the button!</p>")
 
         };  
