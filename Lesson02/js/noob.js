@@ -10,7 +10,7 @@ div01.append ("<p>Please push the button </p>");
 div02.append ("<a href=# data-guid='123' >Click here and go now</a>")
  
 $("a[data-guid=΄123']").click(PushThebutton);
-chosen$.data (data-guid,'567');
+
 
 function PushThebutton (){
         if (!$("p[data-guid='567']")){
@@ -18,4 +18,6 @@ function PushThebutton (){
         };  
            }
 });
+
+
 
