@@ -9,7 +9,7 @@ div01.append ("<p data-clicked=0>Please push the button </p>");
 div02.append ("<a href=# data-guid=123 >Click here and go now</a>")
  
 var chosenA$ = $("a[data-guid=123]");
-var chosenP$ = $("p[data-clicked=0");
+var chosenP$ = $("p[data-clicked=0]");
 
 chosenA$.click(PushThebutton);
 
