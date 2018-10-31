@@ -4,7 +4,7 @@ var div01 = $("div").eq(0);
 var div02 = $("div").eq(1);
 var div03 = $("div").eq(2);
 
-div01.append ("<p>Please push the button data-guid=007</p>");
+div01.append ("<p data-guid=007>Please push the button </p>");
    
 div02.append ("<a href=# data-guid=123 >Click here and go now</a>")
  
