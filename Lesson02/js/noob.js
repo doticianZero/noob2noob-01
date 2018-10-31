@@ -9,7 +9,7 @@ div01.append ("<p>Please push the button </p>");
    
 div02.append ("<a href=# data-guid='123' >Click here and go now</a>")
  
-$("a[data-guid=΄123']").click(PushThebutton);
+$("a[data-guid='123']").click(PushThebutton);
 
 
 function PushThebutton (){
@@ -19,5 +19,5 @@ function PushThebutton (){
            }
 });
 
-
+chosen$.data (data-guid,'567');
 
