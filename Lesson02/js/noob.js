@@ -13,7 +13,7 @@ $("a[data-guid='123']").click(PushThebutton);
 chosen$.data(data-guid,'567')
 
 function PushThebutton (){
-        if (!chosen$.data('guid')){
+        if (chosen$.data('guid')!=='567'){
         div03.append ("<p data-guid='567'>You pressed the button!</p>")
 
         };  
