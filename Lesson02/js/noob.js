@@ -10,12 +10,11 @@ div02.append ("<a href=# data-guid='123' >Click here and go now</a>")
  
 $("a[data-guid='123']").click(PushThebutton);
 
-
 function PushThebutton (){
-        if ($("p[data-guid='567']")==undefined){
+        //if ($("p[data-guid='567']")==undefined){
         div03.append ("<p data-guid='567'>You pressed the button!</p>")
 
-        };  
+        //};  
            }
 });
 
