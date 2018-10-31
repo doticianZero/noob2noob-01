@@ -6,31 +6,25 @@ var div03 = $("div").eq(2);
 var appendedA = false;
 
 
-   div01.append ("<p>Please push the button</p>");
-   if (appendedA === false){
-    div02
-            .append ("<a href=#>Click here and go </a>") 
-            .data ("guid", "LukeIamyourfather")
-            .children("a");   
-
-        var PushThebutton = function (){
-            div03.append ("<p>You pressed the button!</p>")
-            chabgeDiv02Data(div02);
-            changeBooleanControl(appendedA);
-        }
-    }
+div01.append ("<p>Please push the button</p>");
    
-var theChosenOne = $("a").data( "guid", "LukeIamyourfather");      
-    theChosenOne.click (PushThebutton);
+div02.append ("<a href=# data-guid=123 >Click here and go</a>")
+
+ 
+var chosen$ = $("a[data-guid=123]");
+
+chosen$.click(PushThebutton);
+
+
+
+function PushThebutton (){
+        if (oneClickOnly == false){
+        div03.append ("<p>You pressed the button!</p>")    
+        };
+        oneClickOnly=true;
+
+           }
+
+
 
 });
-
-
-function changeBooleanControl(appendedA) {
-    appendedA === true;
-}
-
-function chabgeDiv02Data(div02) {
-    div02.data("guid", "theDarkSide");
-}
-
