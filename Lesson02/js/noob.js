@@ -14,9 +14,9 @@ var chosenP$ = $("p[data-clicked='false']");
 chosenA$.click(PushThebutton);
 
 function PushThebutton (){
-        if (chosenP$.data(clicked)=='false'){
+        //if (chosenP$.data(data-clicked)=='false'){
         div03.append ("<p>You pressed the button!</p>")
-        };
-        chosenP$.data (clicked, 'true');   
+        //};
+        chosenP$.data (data-clicked, 'true');   
            }
 });
