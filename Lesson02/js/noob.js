@@ -14,7 +14,7 @@ chosen$.click(PushThebutton);
 
 
 function PushThebutton (){
-        if (($("p[data-guid=007]"))){
+        if (($("p[data-guid=007]").data(data-guid)=='007')){
         div03.append ("<p>You pressed the button!</p>")
         
         };
