@@ -15,7 +15,8 @@ var appendedA = false;
 
         var PushThebutton = function (){
             div03.append ("<p>You pressed the button!</p>")
-            appendedA === true;
+            chabgeDiv02Data(div02);
+            changeBooleanControl(appendedA);
         }
     }
    
@@ -24,4 +25,12 @@ var theChosenOne = $("a").data( "guid", "LukeIamyourfather");
 
 });
 
+
+function changeBooleanControl(appendedA) {
+    appendedA === true;
+}
+
+function chabgeDiv02Data(div02) {
+    div02.data("guid", "theDarkSide");
+}
 
