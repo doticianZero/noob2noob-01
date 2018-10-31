@@ -14,11 +14,11 @@ chosen$.click(PushThebutton);
 
 
 function PushThebutton (){
-        if ((div01.data(data-guid)=="007")){
+        if ((div01.data(data-guid)==007)){
         div03.append ("<p>You pressed the button!</p>")
         
         };
-        div01.data (data-guid, "008");   
+        div01.data (data-guid, '008');   
 
            }
 
