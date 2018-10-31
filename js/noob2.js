@@ -8,7 +8,7 @@ var appendedA = false;
 
 div01.append ("<p>Please push the button</p>");
    
-div02.append ("<a href=# data-guid=123 >Click here and go</a>")
+div02.append ("<a href=# data-guid=123 >Click here and go now</a>")
 
  
 var chosen$ = $("a[data-guid=123]");
