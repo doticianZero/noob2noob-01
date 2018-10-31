@@ -10,10 +10,10 @@ div01.append ("<p>Please push the button </p>");
 div02.append ("<a href=# data-guid='123' >Click here and go now</a>")
  
 $("a[data-guid='123']").click(PushThebutton);
-chosen$.data(guid,'567')
+chosen$.data('guid','567')
 
 function PushThebutton (){
-        if (!chosen$.data(guid)){
+        if (!chosen$.data('guid')){
         div03.append ("<p data-guid='567'>You pressed the button!</p>")
 
         };  
