@@ -14,7 +14,7 @@ $(document).ready(function(){
 
         function PushThebutton (){
                 var chosen$ = $("p[data-guid='567']");
-                if (!chosen$.hasAttribute('guid')){
+                if (chosen$.length === 0){
                         div03.append ("<p data-guid='567'>You pressed the button!</p>")
                 };  
         }
