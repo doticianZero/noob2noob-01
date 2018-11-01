@@ -24,9 +24,12 @@ $(document).ready(function(){
         
         $("body").append ("<div data-guid='222'></div>");
         var div04 = $("div[data-guid='222']");
-        //div04.append ("<p>hello</p>");
-        div04.load("https://github.com/doticianZero/noob2noob-01/blob/master/Practice01/external.html");
+        div04.append ("<p>hello</p>");
+        /*
+        CORS ERROR - need to activate a local server and load / get the document from it.
         
+        div04.load("https://github.com/doticianZero/noob2noob-01/blob/master/Practice01/external.html");
+        */
 
 });
 
