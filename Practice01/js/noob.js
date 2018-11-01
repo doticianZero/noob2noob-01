@@ -14,16 +14,17 @@ $(document).ready(function(){
        
         div04.append (<button>Show me</button>)
         
-        //$("a[data-guid='123']").click(PushThebutton);
-        //chosen$.data('guid','567')
+        /*$("a[data-guid='123']").click(PushThebutton);
+        chosen$.data('guid','567')
 
+        
         function PushThebutton (){
                 var chosen$ = $("p[data-guid='567']");
                 if (chosen$.length === 0){
                         div03.append ("<p data-guid='567'>You pressed the button!</p>")
                 };  
         }
-
+        */
         
         //$("body").append (<div data-guid='222'></div>);
         //var div04 = $("div[data-guid='222']");
