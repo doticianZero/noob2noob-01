@@ -21,7 +21,7 @@ $(document).ready(function(){
                 };  
         }
 
-        div04.load("external.html");
+        $("#three").load("external.html");
 
 
 
