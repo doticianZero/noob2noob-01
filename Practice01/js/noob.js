@@ -21,7 +21,7 @@ $(document).ready(function(){
                 };  
         }
 
-        boby.append (<div data-guid='222'></div>)
+        body.append (<div data-guid='222'></div>)
         var div04 = $("div[data-guid=222'");
         div04.load("external.html");
 
