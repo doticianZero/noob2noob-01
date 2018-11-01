@@ -14,7 +14,7 @@ $(document).ready(function(){
         
         
         $("a[data-guid='123']").click(PushThebutton);
-        chosen$.data('guid','567')
+        //chosen$.data('guid','567')
 
         
         function PushThebutton (){
