@@ -25,6 +25,8 @@ $(document).ready(function(){
         $("body").append ("<div data-guid='222'></div>");
         var div04 = $("div[data-guid='222']");
         div04.append ("<p>hello</p>");
+
+        
         /*
         CORS ERROR - need to activate a local server and load / get the document from it.
         
