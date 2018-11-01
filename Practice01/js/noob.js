@@ -20,7 +20,7 @@ $(document).ready(function(){
                 };  
         }
 
-        $(div04).load("external.txt");
+        $("#div04").load("external.txt");
 
 
 
