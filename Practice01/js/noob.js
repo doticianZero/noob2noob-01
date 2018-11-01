@@ -21,16 +21,11 @@ $(document).ready(function(){
                 };  
         }
 
-        $("div03").append (<button>Show me</button>)
+        //$("div03").append (<button>Show me</button>)
 
         //$("body").append (<div data-guid='222'></div>);
-        var div04 = $("div[data-guid='222']");
+        //var div04 = $("div[data-guid='222']");
        // div04.load("external.html");
-
-        //$.get("external.html", function(data, status){
-          //      alert("Data: " + data + "\nStatus: " + status);
-
-
 
 
 });
