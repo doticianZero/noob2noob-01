@@ -21,9 +21,11 @@ $(document).ready(function(){
                 };  
         }
 
+
+
         body.append (<div data-guid='222'></div>)
         var div04 = $("div[data-guid=222'");
-        div04.load("external.html");
+        //div04.load("external.html");
 
         //$.get("external.html", function(data, status){
           //      alert("Data: " + data + "\nStatus: " + status);
