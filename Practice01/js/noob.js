@@ -5,14 +5,11 @@ $(document).ready(function(){
         var div03 = $("div").eq(2);
         
 
-
-
         div01.append ("<p>Please push the button </p>");
         
         div02.append ("<a href='#' data-guid='123' >Click here and go now</a>")
        
-        
-        
+                
         $("a[data-guid='123']").click(PushThebutton);
         //chosen$.data('guid','567')
 
@@ -27,8 +24,8 @@ $(document).ready(function(){
         
         $("body").append ("<div data-guid='222'></div>");
         var div04 = $("div[data-guid='222']");
-        div04.append ("<p>hello</p>");
-        //div04.load("external.html");
+        //div04.append ("<p>hello</p>");
+        div04.load("https://github.com/doticianZero/noob2noob-01/blob/master/Practice01/external.html");
         
 
 });
