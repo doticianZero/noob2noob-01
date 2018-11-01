@@ -3,6 +3,7 @@ $(document).ready(function(){
         var div01 = $("div").eq(0);
         var div02 = $("div").eq(1);
         var div03 = $("div").eq(2);
+        var div04 = $("div").eq(3);
 
 
         div01.append ("<p>Please push the button </p>");
@@ -18,6 +19,12 @@ $(document).ready(function(){
                         div03.append ("<p data-guid='567'>You pressed the button!</p>")
                 };  
         }
+
+        $(div04).load("ext/demo_test.txt");
+
+
+
+
 });
 
 
