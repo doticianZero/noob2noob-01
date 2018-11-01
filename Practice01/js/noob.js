@@ -14,7 +14,7 @@ $(document).ready(function(){
        
         div04.append (<button>Show me</button>)
         
-        $("a[data-guid='123']").click(PushThebutton);
+        //$("a[data-guid='123']").click(PushThebutton);
         //chosen$.data('guid','567')
 
         function PushThebutton (){
