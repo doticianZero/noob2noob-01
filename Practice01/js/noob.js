@@ -10,7 +10,7 @@ $(document).ready(function(){
         
         div02.append ("<a href='#' data-guid='123' >Click here and go now</a>")
        
-        div03.append (<button>Show me</button>)
+        //div03.append (<button>Show me</button>)
         
         $("a[data-guid='123']").click(PushThebutton);
         //chosen$.data('guid','567')
@@ -23,7 +23,6 @@ $(document).ready(function(){
         }
 
         
-
         //$("body").append (<div data-guid='222'></div>);
         //var div04 = $("div[data-guid='222']");
        // div04.load("external.html");
