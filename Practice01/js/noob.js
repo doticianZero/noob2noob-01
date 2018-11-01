@@ -21,7 +21,7 @@ $(document).ready(function(){
                 };  
         }
 
-
+        $("body").append (<button>Show me</button>)
 
         //$("body").append (<div data-guid='222'></div>);
         var div04 = $("div[data-guid='222']");
