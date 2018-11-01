@@ -23,8 +23,8 @@ $(document).ready(function(){
 
         div04.load("external.html");
 
-        $.get("external.html", function(data, status){
-                alert("Data: " + data + "\nStatus: " + status);
+        //$.get("external.html", function(data, status){
+          //      alert("Data: " + data + "\nStatus: " + status);
 
 
 
