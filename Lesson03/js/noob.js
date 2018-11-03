@@ -24,7 +24,7 @@ $(document).ready(function(){
 
         function createDiv03 (){
                 $("body").append ("<div data-guid=div03></div>");
-                $("div[data-guid='dv03']").append ("<p>third dv</p>")
+                $("div[data-guid='div03']").append ("<p>third div</p>")
         }
 
        
