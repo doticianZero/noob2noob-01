@@ -52,7 +52,7 @@ $(document).ready(function(){
         }
 
         function hideAllTabs (){
-                $("a[data-targettype='tab'").addClass("hidden");
+                //$("a[data-targettype='tab'").addClass("hidden");
         }
 
 
