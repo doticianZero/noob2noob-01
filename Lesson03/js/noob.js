@@ -42,11 +42,11 @@ $(document).ready(function(){
         handleTargets();
 
         function handleTargets (){
-                $("a[data-targettype='tab']").click (handleTab(this));
+                $("a[data-targettype='tab']").click (handleTab());
                 
         }
 
-        function handleTab (this){
+        function handleTab (){
                 hideAllTabs();
                 var tabcontent$ = this.data('data-target');
         }
