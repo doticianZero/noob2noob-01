@@ -40,10 +40,10 @@ $(document).ready(function(){
         // Business
 
         handleTargets();
-        var tabcontent$;
+        //var tabcontent$;
 
         function handleTargets (){
-                tabcontent$ = $("a[data-targettype='tab']").on ("click", handleTab());
+                var tabcontent$ = $("a[data-targettype='tab']").on ("click", handleTab());
         }
 
         function handleTab (){
