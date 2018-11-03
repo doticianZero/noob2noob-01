@@ -43,12 +43,12 @@ $(document).ready(function(){
         var tabcontent$;
 
         function handleTargets (){
-                $("a[data-targettype='tab']").on ("click", handleTab());
+                tabcontent$ = $("a[data-targettype='tab']").on ("click", handleTab());
         }
 
         function handleTab (){
                 hideAllTabs();
-                tabcontent$ = $(this).data('data-target');
+                //tabcontent$ = $(this).data('data-target');
         }
 
         function hideAllTabs (){
