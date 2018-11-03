@@ -27,12 +27,12 @@ $(document).ready(function(){
         }
 
         function createDiv02 (){
-                $("body").append ("<div data-guid=dv02 class='hidden'></div>");
-                $("div[data-guid='dv02']").append ("<p>second div</p>")
+                $("body").append ("<div data-guid='div02' class='hidden'></div>");
+                $("div[data-guid='div02']").append ("<p>second div</p>")
         }
 
         function createDiv03 (){
-                $("body").append ("<div data-guid=div03 class='hidden'></div>");
+                $("body").append ("<div data-guid='div03' class='hidden'></div>");
                 $("div[data-guid='div03']").append ("<p>third div</p>")
         }
 
