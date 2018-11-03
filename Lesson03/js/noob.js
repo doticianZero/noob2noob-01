@@ -44,17 +44,18 @@ $(document).ready(function(){
 
         function handleTargets (){
                 var tabcontent$ = $("a[data-targettype='tab']").on ("click", handleTab());
-                alert("hello!");
+                alert("hello from handleTargets!");
         }
 
         function handleTab (){
                 hideAllTabs();
                 //tabcontent$ = $(this).data('data-target');
+                alert("hello from handleTab!");
         }
 
         function hideAllTabs (){
                 //$("a[data-targettype='tab'").addClass("hidden");
-                alert 
+                alert("hello from hideAllTabs"); 
         }
 
 
