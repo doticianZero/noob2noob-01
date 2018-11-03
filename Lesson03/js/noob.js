@@ -49,7 +49,7 @@ $(document).ready(function(){
 
         function handleTab (){
                 hideAllTabs();
-                //tabcontent$ = $(this).data('data-target');
+                var tabcontent$ = $(this).data('data-target');
                 alert("hello from handleTab!");
         }
 
