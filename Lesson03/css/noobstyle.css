@@ -1,6 +1,9 @@
 
 body {
-                font-family: lato;
-                background: rgb(252, 252, 252);
+            font-family: lato;
+            background: rgb(252, 252, 252);
+    }
 
-            }
+.hidden {
+            visibility: hidden;
+        }
