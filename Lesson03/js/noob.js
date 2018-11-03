@@ -16,9 +16,9 @@ $(document).ready(function(){
         function createDiv00 (){
                 $("body").append ("<div data-guid='div00'></div>");
                 $("div[data-guid='div00'")
-                        .append ("<a href=# data-target='div01'> tab 1 </a>")
-                        .append ("<a href=# data-target='div02'> tab 2 </a>")
-                        .append ("<a href=# data-target='div03'> tab 3 </a>")
+                        .append ("<a href=# data-target='div01' data-targettype='tab'> tab 1 </a>")
+                        .append ("<a href=# data-target='div02' data-targettype='tab'> tab 2 </a>")
+                        .append ("<a href=# data-target='div03' data-targettype='tab'> tab 3 </a>")
         }
 
         function createDiv01 (){
