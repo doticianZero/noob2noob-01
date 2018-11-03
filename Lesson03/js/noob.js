@@ -48,7 +48,8 @@ $(document).ready(function(){
 
         function handleTab (){
                 hideAllTabs();
-                var tabcontent$ = this.data('data-target');
+                var tabcontent$ = $(this);
+                tabcontent$.data('data-target');
         }
 
         function hideAllTabs (){
