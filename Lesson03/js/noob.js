@@ -44,6 +44,7 @@ $(document).ready(function(){
 
         function handleTargets (){
                 var tabcontent$ = $("a[data-targettype='tab']").on ("click", handleTab());
+                alert("hello!");
         }
 
         function handleTab (){
@@ -53,6 +54,7 @@ $(document).ready(function(){
 
         function hideAllTabs (){
                 //$("a[data-targettype='tab'").addClass("hidden");
+                alert 
         }
 
 
