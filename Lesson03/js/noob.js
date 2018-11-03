@@ -2,6 +2,8 @@ $(document).ready(function(){
        
         // Create UI
 
+        createUI();
+
         function createUI (){
                 createDiv01();
                 createDiv02();
