@@ -43,8 +43,7 @@ $(document).ready(function(){
         var tabcontent$;
 
         function handleTargets (){
-                $("a[data-targettype='tab']").click (handleTab());
-                
+                $("a[data-targettype='tab']").on ("click", handleTab());
         }
 
         function handleTab (){
