@@ -14,7 +14,7 @@ $(document).ready(function(){
         // Create DIVs
 
         function createDiv00 (){
-                $("body").append ("div data-guid='div00'></div>");
+                $("body").append ("<div data-guid='div00'></div>");
                 $("div[data-guid='div00'")
                         .append ("<a href=# class='hidden'> tab 1 </a>")
                         .append ("<a href=# class='hidden'> tab 2 </a>")
