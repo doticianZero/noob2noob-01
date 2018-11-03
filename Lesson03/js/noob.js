@@ -36,6 +36,14 @@ $(document).ready(function(){
                 $("div[data-guid='div03']").append ("<p>third div</p>")
         }
 
+        function handleTargets (){
+                $("a[data-targettype='tab']").click (handleTab());
+        }
+
+        function handleTab (){
+
+        }
+
        
 });
 
