@@ -54,7 +54,7 @@ $(document).ready(function(){
         }
 
         function hideAllTabs (){
-                $("a[data-targettype='tab'").css ("class","hidden");
+                $("a[data-targettype='tab'").addClass("hidden");
         }
 
 
