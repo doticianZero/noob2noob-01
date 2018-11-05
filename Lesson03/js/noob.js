@@ -48,7 +48,7 @@ $(document).ready(function(){
         }
 
         function handleTab (element$){
-                tabcontent$=parent(element$).data("data.guid");
+                tabcontent$=parent(element$).prop("data.guid");
                 hideAllTabs();
         }
 
