@@ -50,7 +50,8 @@ $(document).ready(function(){
 
         function handleTab ($){
                 hideAllTabs();
-                tabcontent$=parent(aclicked$).data("data-guid");
+                tabcontent$=parent(aclicked$);
+                final$=tabcontent$.data("data-guid");
         }
 
         function hideAllTabs (){
