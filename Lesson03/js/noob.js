@@ -41,10 +41,9 @@ $(document).ready(function(){
 
         handleTargets();
         
-        var aclicked$;
 
         function handleTargets (){
-                $("a[data-targettype='tab']").on ("click", handleTab(aclicked$= $(this)));
+                $("a[data-targettype='tab']").on ("click", handleTab($(this)));
                 
         }
 
