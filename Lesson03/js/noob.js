@@ -41,14 +41,16 @@ $(document).ready(function(){
 
         handleTargets();
         var tabcontent$;
+        var aclicked$;
 
         function handleTargets (){
-                $("a[data-targettype='tab']").on ("click", handleTab);
+                $("a[data-targettype='tab']").on ("click", handleTab(aclicked$= $(this)));
+                
         }
 
-        function handleTab (){
+        function handleTab ($){
                 hideAllTabs();
-                tabcontent$ = $(this).data('data-target');
+                tabcontent$=parent(aclicked$).data("data-guid");
         }
 
         function hideAllTabs (){
