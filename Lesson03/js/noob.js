@@ -22,17 +22,17 @@ $(document).ready(function(){
         }
 
         function createDiv01(){
-                $("body").append ("<div data-guid='div01' data-type='tab' class='hidden'></div>");
+                $("body").append("<div data-guid='div01' data-type='tab' class='hidden'></div>");
                 $("div[data-guid='div01']").append ("<p>first div</p>")
         }
 
         function createDiv02(){
-                $("body").append ("<div data-guid='div02' data-type='tab' class='hidden'></div>");
+                $("body").append("<div data-guid='div02' data-type='tab' class='hidden'></div>");
                 $("div[data-guid='div02']").append("<p>second div</p>")
         }
 
         function createDiv03(){
-                $("body").append ("<div data-guid='div03' data-type='tab' class='hidden'></div>");
+                $("body").append("<div data-guid='div03' data-type='tab' class='hidden'></div>");
                 $("div[data-guid='div03']").append("<p>third div</p>")
         }
 
