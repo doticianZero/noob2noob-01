@@ -40,7 +40,7 @@ $(document).ready(function(){
         // Business
 
         handleTargets();
-        var tabcontent$;
+        
         var aclicked$;
 
         function handleTargets (){
@@ -48,10 +48,9 @@ $(document).ready(function(){
                 
         }
 
-        function handleTab ($){
+        function handleTab (element$){
+                tabcontent$=parent(element$).data("data.guid");
                 hideAllTabs();
-                tabcontent$=parent(aclicked$);
-                final$=tabcontent$.data("data-guid");
         }
 
         function hideAllTabs (){
